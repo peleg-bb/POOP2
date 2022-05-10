@@ -1,17 +1,19 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include "FlowersBouquet.h"
 
 class Florist;
 
+
 class Person
-{protected:
+{
+protected:
 	std::string name;
 public:
 	Person(std::string);
-	void orderFlowers(Florist* f, Person* p, std::vector<std::string>);
-	std::string getName();
-
-	
+	virtual std::string getName();
+	void orderFlowers(Florist* , Person*, std::vector<std::string>);
+	void acceptFlowers(FlowersBouquet*);
+		
 };
-
