@@ -16,6 +16,13 @@ void Person::orderFlowers(Florist* f, Person* p, std::vector<std::string> flower
 	}
 	std::cout << this->getName() << " orders flowers to " << 
 		p->getName() << " from " << f->getName() << ": " << concatenate << std::endl;
+	f->acceptOrder(p, flowers);
+}
+
+void Person::acceptFlowers(FlowersBouquet* b)
+{
+
+	std::cout << this->getName() << " accepts the flowers:" << b->toString() << std::endl;
 }
 
 std::string Person::getName()
