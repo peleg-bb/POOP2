@@ -19,13 +19,23 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Delivery_Person.cpp" />
     <ClCompile Include="Florist.cpp" />
+    <ClCompile Include="FlowersBouquet.cpp" />
+    <ClCompile Include="Flower_Arranger.cpp" />
+    <ClCompile Include="Gardner.cpp" />
+    <ClCompile Include="Grower.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Wholesaler.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Delivery_Person.h" />
     <ClInclude Include="Florist.h" />
+    <ClInclude Include="FlowersBouquet.h" />
+    <ClInclude Include="Flower_Arranger.h" />
+    <ClInclude Include="Gardner.h" />
+    <ClInclude Include="Grower.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Wholesaler.h" />
   </ItemGroup>

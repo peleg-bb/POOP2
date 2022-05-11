@@ -11,7 +11,7 @@ std::string Flower_Arranger::getName()
 
 void Flower_Arranger::arrangeFlowers(FlowersBouquet* b)
 {
-	std::cout << this->getName() << " arranges flowers " << std::endl;
+	std::cout << this->getName() << " arranges flowers." << std::endl;
 	b->arrange();
 
 }

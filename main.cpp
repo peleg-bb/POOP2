@@ -18,7 +18,7 @@ int main(int argc, char** argv)
 	Wholesaler* watson = new Wholesaler("Watson", gray);
 	Florist* fred = new Florist("Fred", watson, flora, dylan);
 	Person* chris = new Person("Chris");
-	std::vector<std::string> flowers = { "Buttercup", "Primrose", "Hibiscus" };
+	std::vector<std::string> flowers = { "Roses", "Violets", "Gladiolus"};
 	chris->orderFlowers(fred, robin, flowers);
 
 	delete robin;

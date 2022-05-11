@@ -11,7 +11,7 @@ std::string Gardner::getName()
 
 FlowersBouquet* Gardner::prepareBouquet(std::vector<std::string> flowers)
 {
-	std::cout << this->getName() <<" prepares flowers " << std::endl;
+	std::cout << this->getName() <<" prepares flowers" << "." << std::endl;
 	FlowersBouquet* b = new FlowersBouquet(flowers);
 	return b;
 }

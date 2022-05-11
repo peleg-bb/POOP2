@@ -27,6 +27,21 @@
     <ClCompile Include="Wholesaler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Delivery_Person.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gardner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowersBouquet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flower_Arranger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Grower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
@@ -36,6 +51,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Wholesaler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Delivery_Person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowersBouquet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flower_Arranger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Grower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gardner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

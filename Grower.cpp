@@ -12,9 +12,9 @@ std::string Grower::getName()
 
 FlowersBouquet* Grower::prepareOrder(std::vector<std::string> b)
 {
-	std::cout << this->getName() << " forwards the request to " << gardner->getName() << std::endl;
+	std::cout << this->getName() << " forwards the request to " << gardner->getName() << "." << std::endl;
 	FlowersBouquet* bq = gardner->prepareBouquet(b);
-	std::cout << gardner->getName() << " returns flowers to to " << this->getName() << std::endl;
+	std::cout << gardner->getName() << " returns flowers to to " << this->getName() << "." << std::endl;
 	return bq;
 	
 }
